@@ -3,7 +3,6 @@ import { useRifaDataMutate } from '../../hooks/useRifaDataMutate';
 import { rifaData } from '../../interface/rifaData';
 import './modal.css'
 
-
 interface InputProps {
     label: string,
     value: string | number,
@@ -23,14 +22,12 @@ const Input = ({ label, value, updateValue }: InputProps) => {
     )
 }
 
-
 export function Modal({closeModal}: ModalProps) {
 
     const [number, setNumber] = useState(0);
     const [name, setName] = useState("");
     const [quantity, setQuantity] = useState(0);
     const {mutate, isSuccess, isLoading} = useRifaDataMutate();
-
 
     const submit = () => {
         const rifaData: rifaData = {

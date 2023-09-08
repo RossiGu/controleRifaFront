@@ -2,9 +2,7 @@ import './App.css'
 import { Modal } from './components/modal/modal';
 import { Rifa } from './components/rifa';
 import { useRifaData } from './hooks/useRifaData';
-import { rifaData } from './interface/rifaData';
-import { useEffect, useState } from 'react';
-
+import { useState } from 'react';
 
 function App() {
 

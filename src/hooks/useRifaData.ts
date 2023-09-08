@@ -20,5 +20,4 @@ export function useRifaData() {
         ...query,
         data: query.data?.data
     }
-    
 }

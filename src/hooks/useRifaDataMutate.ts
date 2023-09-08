@@ -20,5 +20,4 @@ export function useRifaDataMutate() {
     })
 
     return mutate;
-    
 }
